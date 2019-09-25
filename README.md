@@ -31,7 +31,7 @@ To install the script:
 
 **How to get to Trigger settings:**
 
-![Trigger button location](/TimeTriggerButtonSetup.png?raw=true "Trigger button")
+![Trigger button location](/TimeTriggerButtonScreenshot.png?raw=true "Trigger button")
 
 **What your time-based trigger settings should look like:**
 
