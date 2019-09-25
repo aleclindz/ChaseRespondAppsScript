@@ -2,17 +2,17 @@
 A simple Apps Script / gmail organization methodology
 
 # Why I Made This:
-As the founding COO of a startup that very quickly raised money and began running fast, my email inbox became overwhelming. 
+As a co-founder at a startup that very quickly raised money and began running fast, my email inbox, predictably, became overwhelming to manage. 
 
-When you're building an early stage company, and *especially* when you are leading any kind of business development, partnership, or sales efforts, I found that two categories of email generally create anxiety: 
+When you're in a high-stress role, and *especially* when you are involved with any kind of business development, partnership, or sales efforts, I found that two categories of email generally create anxiety: 
 
-1) Threads to which you need to respond, but haven't yet, either because A) you don't have the required information to respond or B) haven't yet made time;
+1) Threads to which you need to respond, but haven't yet, because either A) you don't have the required information to respond or B) you haven't yet made time;
 
 2) Emails which you send, the respondents of which you need to 'chase' for a response.
 
-I understood that having visibility into both of these categories would be critical as the company grew. I needed some easy way to keep track of the threads that I needed to keep driving (outbound to sales prospects, time-sensitive partnerships, slow vendors) as well as those messages, mostly internal, (but also early customer support, legal / finance / HR topics that are less urgent) that required my response. 
+I understood that having visibility into both of these categories would be critical as the company grew. I needed some easy way to keep track of the threads that I needed to keep driving (outbound to sales prospects, time-sensitive partnerships, slow vendors) as well as those messages, mostly internal, (but also early customer support, legal / finance / HR topics that are less urgent) that required my response but weren't deserving of immediate attention. 
 
-I wrote this script to take advantage of Gmail's 'star' button and use it as a one-click way to mark an email (or thread) as important. Critically, on the Gmail app, you can only 'star' threads, though in the Gmail API and on Gmail web individual messages are shown as starred.
+I wrote this script to take advantage of Gmail's 'star' button and use it as a one-click way to mark an email (or thread) as important. Critically, on the Gmail app, you can only 'star' threads, though on Gmail web individual messages are shown as starred.
 
 If the last message in a starred thread was sent by the user, then the label 'Chase' is applied. If the last message in a starred thread was sent by someone other than the user, then the label 'Respond' is applied. If somebody replies to a 'Chase' thread, then the label is changed from 'Chase' to 'Respond'; if the user replies to a 'Respond' thread, vice versa.
 
