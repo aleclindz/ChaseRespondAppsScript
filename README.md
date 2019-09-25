@@ -4,13 +4,13 @@ A simple Apps Script / gmail organization methodology
 # Why I Made This:
 As the founding COO of a startup that very quickly raised money and began running fast, my email inbox became overwhelming. 
 
-When you're building an early stage company, and *especially* when you are leading any kind of business development, partnership, or sales efforts, I found that two categories of email generally created anxiety: 
+When you're building an early stage company, and *especially* when you are leading any kind of business development, partnership, or sales efforts, I found that two categories of email generally create anxiety: 
 
-1) Threads that I needed to respond to but hadn't yet, either because A) I didn't have the required information to respond or B) hadn't yet made time;
+1) Threads to which you need to respond, but haven't yet, either because A) you don't have the required information to respond or B) haven't yet made time;
 
-2) Emails which I had send, the respondents of which I needed to 'chase' for a response.
+2) Emails which you send, the respondents of which you need to 'chase' for a response.
 
-I understood that having visibility into both of these categories would be critical as the company grew. I needed some easy way to keep track of the threads that I needed to keep driving (outbound to sales prospects, time-sensitive partnerships, slow vendors) as well as those messages, mostly internal, that required my response. 
+I understood that having visibility into both of these categories would be critical as the company grew. I needed some easy way to keep track of the threads that I needed to keep driving (outbound to sales prospects, time-sensitive partnerships, slow vendors) as well as those messages, mostly internal, (but also early customer support, legal / finance / HR topics that are less urgent) that required my response. 
 
 I wrote this script to take advantage of Gmail's 'star' button and use it as a one-click way to mark an email (or thread) as important. Critically, on the Gmail app, you can only 'star' threads, though in the Gmail API and on Gmail web individual messages are shown as starred.
 
