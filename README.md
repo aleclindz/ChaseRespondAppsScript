@@ -12,7 +12,7 @@ By creating these two labels, and then organizing your Inbox into 4 sections (on
 
 ## How to Install:
 
-1) Create a new script by going to [script.google.com/create].
+1) Create a new script by going (here) [https://script.google.com/create] .
 2) Replace the contents of the script editor with the code in this repo.
 3) Click File > Save, name your project “ChaseRespond”, and click OK.
 4) Enable the (Gmail API advanced service in your script.)[https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services]
