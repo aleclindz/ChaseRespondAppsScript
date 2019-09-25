@@ -18,10 +18,10 @@ Pre-install steps in your Gmail:
 
 
 To install the script: 
-1) Create a new script by going (here) [https://script.google.com/create] .
+1) Create a new script by going to [https://script.google.com/create] .
 2) Replace the contents of the script editor with the code in this repo.
 3) Click File > Save, name your project “ChaseRespond”, and click OK.
-4) Enable the (Gmail API advanced service in your script.)[https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services]
+4) Enable the Gmail API advanced service in your script.[https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services]
 5) In the Apps Script editor, click Run > ChaseRespond. The first time you run it, it will prompt you to authorize access: Click the Continue button, and then click the Accept button.
 6) Finally, set a time-based trigger for the script to have it run every 30 minutes - it seems this is the maximum frequency before reaching the Apps Script quota.
 
