@@ -2,7 +2,7 @@
 A simple Apps Script / gmail organization methodology
 
 # Why I Made This:
-As the founding COO of a startup that very quickly raised money and began running fast, my email inbox ecame overwhelming. 
+As the founding COO of a startup that very quickly raised money and began running fast, my email inbox became overwhelming. 
 
 When you're building an early stage company, and *especially* when you are leading any kind of business development, partnership, or sales efforts, I found that two categories of email generally created anxiety: 
 
