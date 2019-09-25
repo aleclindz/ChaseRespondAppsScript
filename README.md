@@ -23,7 +23,7 @@ By creating these two labels, and then organizing your Inbox into 4 sections (on
 2) Go to your 'Inbox' settings and choose 'Priority Inbox'
 3) Create four sections in your inbox: "All Chase", "All Respond", "All Unread", and "Everything Else"
 
-#### It should look like this:####
+#### It should look like this: ####
 
 ![Inbox setting screenshot](/PriorityInbox4SectionFinalScreenshot.png?raw=true "Final Inbox Section Setup")
 
@@ -33,7 +33,7 @@ By creating these two labels, and then organizing your Inbox into 4 sections (on
 1) Create a new script by going to [https://script.google.com/create] .
 2) Replace the contents of the script editor with the code in this repo.
 3) Click File > Save, name your project “ChaseRespond”, and click OK.
-4) Enable the Gmail API advanced service in your script.[https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services]
+4) Enable the Gmail API advanced service in your script. [https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services]
 5) In the Apps Script editor, click Run > ChaseRespond. The first time you run it, it will prompt you to authorize access: Click the Continue button, and then click the Accept button.
 6) Finally, set a time-based trigger for the script to have it run every 30 minutes - it seems this is the maximum frequency before reaching the Apps Script quota.
 
@@ -41,7 +41,7 @@ By creating these two labels, and then organizing your Inbox into 4 sections (on
 
 ![Trigger button location](/TimeTriggerButtonScreenshot.png?raw=true "Trigger button")
 
-#### What your time-based trigger settings should look like:####
+#### What your time-based trigger settings should look like: ####
 
 ![Time trigger settings](/TimeBasedTriggerSetupScreenshot.png?raw=true "Time trigger settings")
 
