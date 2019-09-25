@@ -16,6 +16,10 @@ Pre-install steps in your Gmail:
 1) In your Gmail inbox, click the 'gear' icon, go to 'Labels' in your settings, and create two new labels: "Chase" and "Respond"
 2) Go to your 'Inbox' settings and create four sections in your inbox: "All Chase", "All Respond", "All Unread", and "Everything Else"
 
+**It should look like this:**
+
+![Inbox setting screenshot](/PriorityInbox4SectionFinalScreenshot.png?raw=true "Final Inbox Section Setup")
+
 
 To install the script: 
 1) Create a new script by going to [https://script.google.com/create] .
@@ -25,6 +29,13 @@ To install the script:
 5) In the Apps Script editor, click Run > ChaseRespond. The first time you run it, it will prompt you to authorize access: Click the Continue button, and then click the Accept button.
 6) Finally, set a time-based trigger for the script to have it run every 30 minutes - it seems this is the maximum frequency before reaching the Apps Script quota.
 
+**How to get to Trigger settings:**
+
+![Trigger button location](/TimeTriggerButtonSetup.png?raw=true "Trigger button")
+
+**What your time-based trigger settings should look like:**
+
+![Time trigger settings](/TimeBasedTriggerSetupScreenshot.png?raw=true "Time trigger settings")
 
 ## Why I Made This:
 As a co-founder at a startup that very quickly raised money and began running fast, my email inbox, predictably, became overwhelming to manage. 
