@@ -12,6 +12,12 @@ By creating these two labels, and then organizing your Inbox into 4 sections (on
 
 ## How to Install:
 
+Pre-install steps in your Gmail:
+1) In your Gmail inbox, click the 'gear' icon, go to 'Labels' in your settings, and create two new labels: "Chase" and "Respond"
+2) Go to your 'Inbox' settings and create four sections in your inbox: "All Chase", "All Respond", "All Unread", and "Everything Else"
+
+
+To install the script: 
 1) Create a new script by going (here) [https://script.google.com/create] .
 2) Replace the contents of the script editor with the code in this repo.
 3) Click File > Save, name your project “ChaseRespond”, and click OK.
